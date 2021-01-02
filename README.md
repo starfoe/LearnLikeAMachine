@@ -42,9 +42,9 @@ Measuring real life is a bit hard, and quantification can be even harder. But ef
 
 Chances are they may not always go in the same direction and sometimes contradict each other as any other metrics would. To address the conflicts, wellbeing is considered the primary metric, followed by the things that must be achieved metric.
 
-# Hyperparameters/Settings
+## Hyperparameters/Settings
 If the model structure isn’t going to be changed, these things promise some difference in our lives positively.
-## Labels — feedback for each action
+### Labels — feedback for each action
 Arguably, labels are the most precious resource in ML model training as it tells how far each prediction is off the goal, which in turn enables the learning process. While models digest labels eagerly with no discrimination, people are sometimes having difficulties in receiving feedback. But if we take feedback as nothing but just a piece of information guiding us in the direction for improvement, we would be more open to feedback, and better performance would come along.
 
 Feedback items can be categorized by their resources:
@@ -60,27 +60,27 @@ Feedback items can be categorized by their resources:
 
 Although all feedback items contribute equally to the total loss, it doesn’t necessarily mean their impacts are equal in essence. Some feedback comes in more often than others, like self-reflection, and some feedback gets back to us sooner like those from our partners. The differences in delay and amount distinguish importance.
 
-## Loss function
+### Loss function
 With labels, a loss function helps with qualifying the distance between model predictions and targets. Every loss function has its semantic meaning, e.g.
 - MSE: All performance will be treated equally, which means some unusual lowlights may unnecessarily draw a lot of attention for their large contribution.
 - Log loss: Widely applied in 0/1 binary classification for its mathematical merit. But is my life a binary classification problem? No can do. I would never model my life& work as a binary classification where results only have two values — success or failure.
 - Huber loss: within the normal range, performance is considered equally, but outside of the range, performance contributes less to the loss, which means we think less about unusual performance as it could happen by chance.
 
-## Learning rate and optimization method
+### Learning rate and optimization method
 They are the compass pointing in the direction where we should put in the effort to reduce loss. Assuming Adam is the optimization function, my investment’s magnitude would depend on how far I’ve been in the area and the inertia I’m having. That is to say, having patience is required for old places because the improvement is doomed to be incremental if not tiny. On the contrary, I should feel free to make bold progress in new areas. Groundbreaking changes are welcomed too. The Law of inertia suggests efforts will be continuous — today’s action is close to yesterday’s. Therefore, I’d better not assume any significant change would happen quickly. Reading 10 books per week from tomorrow, given I didn’t read anything in the past year? That will be the day!
 
-## Batch size
+### Batch size
 The batch size is analogous to how often I look back and make the adjustment with the feedback I’ve collected.
 
-### Small batch
+#### Small batch
 - I train myself very often, leading to timely changes but may expose myself to noises.
 - I would be obsessed with minor details, like whom I met today, which sentence I shouldn’t have said, etc. EVERY single event matters in this mode.
 
-### Large batch
+#### Large batch
 - I train myself after getting a sufficient amount of data.
 - Too late feedback would help avoid less meaningful feedback but may miss some useful feedback.
 
-### My choice — depending on types.
+#### My choice — depending on types.
 - Weekly non-work-related and monthly for work-related
 - Even lower for self-reflection: I’m not saying I dislike self-reflection. In fact, I tend to do it the other way round — I’ve been so obsessed with self-reflection in the past that sometimes I’m just bothered by myself. As such, I would benefit from reduced frequency.
 
